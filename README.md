@@ -1,6 +1,6 @@
-# Hi, I'm Makino 👋
+# Hi, I'm Makino
 
-Python developer specializing in **web scraping**, **data pipelines**, and **automation**. I build tools that extract, clean, and transform data from the web and messy real-world sources.
+Python developer specializing in **web scraping**, **data pipelines**, **API integration**, and **automation**. I build tools that extract, clean, and transform data from the web and real-world messy sources — and ship them as working products.
 
 ---
 
@@ -9,12 +9,14 @@ Python developer specializing in **web scraping**, **data pipelines**, and **aut
 ```python
 skills = {
     "languages":    ["Python"],
-    "scraping":     ["BeautifulSoup4", "Scrapy", "Selenium", "Requests"],
+    "scraping":     ["BeautifulSoup4", "Requests", "Scrapy", "Selenium"],
     "data":         ["Pandas", "NumPy", "OpenPyXL"],
-    "techniques":   ["ETL", "Data Mining", "Data Cleaning",
-                     "Web Crawling", "Data Extraction", "Automation"],
-    "outputs":      ["CSV", "JSON", "Excel", "PostgreSQL"],
-    "apis":         ["REST API Integration", "JSON parsing", "Pagination handling"],
+    "backend":      ["Flask", "REST API", "Gunicorn", "asyncio"],
+    "techniques":   ["ETL", "Data Mining", "Data Cleaning", "Data Extraction",
+                     "Web Crawling", "API Integration", "Automation"],
+    "outputs":      ["CSV", "JSON", "Excel", "SQLite"],
+    "ai":           ["Anthropic Claude API", "Prompt Engineering"],
+    "deployment":   ["Render.com", "Telegram Bot API"],
 }
 ```
 
@@ -23,23 +25,46 @@ skills = {
 ## Projects
 
 ### [quotes-scraper](https://github.com/makino-p/quotes-scraper)
-Web scraper that crawls all 10 pages of quotes.toscrape.com, auto-detects pagination, and exports 100 structured records to CSV + JSON.
-`BeautifulSoup4` `Requests` `Pagination` `CSV` `JSON`
+Web scraper that auto-detects pagination and crawls all 10 pages of quotes.toscrape.com — exports 100 structured records (text, author, tags, bio URL) to CSV + JSON with polite rate limiting.
+
+`BeautifulSoup4` `Requests` `Web Crawling` `Pagination` `CSV` `JSON`
 
 ---
 
 ### [etl-pipeline](https://github.com/makino-p/etl-pipeline)
-Full ETL pipeline that ingests messy sales CSVs (mixed dates, nulls, dupes, bad types), cleans and validates the data with Pandas, then loads to clean CSV + 4-sheet Excel business report.
-`Pandas` `ETL` `Data Cleaning` `OpenPyXL` `Automation`
+Production-style ETL pipeline: ingests 550 rows of intentionally messy sales CSV (6 mixed date formats, nulls, dupes, string prices, bad discounts), transforms with Pandas, loads to clean CSV + 4-sheet Excel business report.
+
+`Pandas` `ETL` `Data Cleaning` `Data Mining` `OpenPyXL` `Automation` `CSV`
 
 ---
 
-## What I Work On
+### [studybot](https://github.com/makino-p/studybot)
+Automated Telegram study bot delivering daily SAT, CS, and IELTS questions. Fetches from 3 free public APIs (OpenSAT, Open Trivia DB, built-in bank), caches questions locally, and tracks per-subject accuracy + XP.
 
-- Extracting structured data from websites and APIs
-- Building pipelines that clean and transform raw data into usable formats
-- Automating repetitive data collection and reporting tasks
-- Handling real-world data quality issues: nulls, duplicates, format inconsistencies
+`Telegram Bot API` `REST API Integration` `asyncio` `JSON` `Automation` `Data Extraction`
+
+---
+
+### [ielts-mentor](https://github.com/makino-p/ielts-mentor)
+Full-stack IELTS prep platform built with Flask. 12-week study schedule, 20+ lessons, practice exercises, vocabulary builder. AI essay feedback and tutor chat via Claude API. Deployed on Render.com.
+
+`Flask` `Claude AI API` `REST API` `JSON` `Gunicorn` `Web Backend` `API Integration`
+
+---
+
+### [DS_Bootcamp](https://github.com/makino-p/DS_Bootcamp)
+Structured collection of Data Science bootcamp exercises — CSV parsing, OOP, functional Python, file I/O, and data aggregation. Foundation for all data pipeline work above.
+
+`Python` `Data Analysis` `CSV` `OOP` `Pandas` `Automation`
+
+---
+
+## What I Build
+
+- Scrapers that navigate pagination, handle dynamic content, and respect rate limits
+- ETL pipelines that fix messy real-world data and produce clean, validated outputs
+- Bots and apps that integrate external APIs (Telegram, Anthropic, Open Trivia, REST)
+- Automated tools that replace manual data collection and reporting work
 
 ---
 
