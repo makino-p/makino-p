@@ -66,6 +66,55 @@ Structured collection of Data Science bootcamp exercises — CSV parsing, OOP, f
 
 ---
 
+
+---
+
+### AI-Generated Portfolio Projects
+
+Generated with OpenRouter · qwen/qwen3 · 25 professional Python projects
+
+
+**[bs4-books-catalog](https://github.com/makino-p/bs4-books-catalog)** — BeautifulSoup — Full Book Catalog Scraper
+`BeautifulSoup4` `Web Scraping` `Requests` `Pagination`
+
+
+**[pandas-etl-sales](https://github.com/makino-p/pandas-etl-sales)** — Pandas — Full ETL Sales Data Pipeline
+`Pandas` `ETL` `Data Cleaning` `CSV`
+
+
+**[csv-data-cleaner](https://github.com/makino-p/csv-data-cleaner)** — CSV — Professional Data Cleaning Framework
+`Python` `Automation` `CSV`
+
+
+**[api-rate-limited-fetcher](https://github.com/makino-p/api-rate-limited-fetcher)** — API Integration — Smart Fetcher with Retry & Rate Limiting
+`API Integration` `REST API` `Retry Logic` `Pandas`
+
+
+**[sitemap-xml-parser](https://github.com/makino-p/sitemap-xml-parser)** — Data Extraction — XML Sitemap Parser & URL Analyzer
+`Data Extraction` `XML Parsing` `Automation` `CSV`
+
+
+**[data-mining-logs](https://github.com/makino-p/data-mining-logs)** — Data Mining — Server Log Pattern Analysis
+`Data Mining` `Log Analysis` `Regex` `Pandas`
+
+
+**[excel-report-advanced](https://github.com/makino-p/excel-report-advanced)** — Automation — Advanced Excel Report Generator
+`Automation` `Excel` `OpenPyXL` `Pandas`
+
+
+**[automation-file-organizer](https://github.com/makino-p/automation-file-organizer)** — Automation — Intelligent File Organizer & Reporter
+`Automation` `File Processing` `CSV` `Pandas`
+
+
+**[wikipedia-data-extractor](https://github.com/makino-p/wikipedia-data-extractor)** — Data Extraction — Wikipedia Table Extractor & Processor
+`Web Scraping` `Data Extraction` `BeautifulSoup4` `CSV`
+
+
+**[etl-data-pipeline-orchestrator](https://github.com/makino-p/etl-data-pipeline-orchestrator)** — ETL — Pipeline Orchestrator with Checkpointing
+`ETL` `Pipeline` `Pandas` `Automation`
+
+---
+
 ## What I Build
 
 - Scrapers that navigate pagination, handle dynamic content, and respect rate limits
