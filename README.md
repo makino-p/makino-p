@@ -74,44 +74,52 @@ Structured collection of Data Science bootcamp exercises — CSV parsing, OOP, f
 Generated with OpenRouter · qwen/qwen3 · 25 professional Python projects
 
 
-**[bs4-books-catalog](https://github.com/makino-p/bs4-books-catalog)** — BeautifulSoup — Full Book Catalog Scraper
+**[bs4-quotes-scraper](https://github.com/makino-p/bs4-quotes-scraper)** — BeautifulSoup — Advanced Quotes Scraper
 `BeautifulSoup4` `Web Scraping` `Requests` `Pagination`
 
 
-**[pandas-etl-sales](https://github.com/makino-p/pandas-etl-sales)** — Pandas — Full ETL Sales Data Pipeline
-`Pandas` `ETL` `Data Cleaning` `CSV`
+**[selenium-automation](https://github.com/makino-p/selenium-automation)** — Selenium — Web Automation & Data Extraction
+`Selenium` `Web Automation` `BeautifulSoup4` `Requests`
 
 
-**[csv-data-cleaner](https://github.com/makino-p/csv-data-cleaner)** — CSV — Professional Data Cleaning Framework
-`Python` `Automation` `CSV`
+**[pandas-deep-analysis](https://github.com/makino-p/pandas-deep-analysis)** — Pandas — Deep Data Analysis & Statistics
+`Pandas` `Data Analysis` `Statistics` `CSV`
 
 
-**[api-rate-limited-fetcher](https://github.com/makino-p/api-rate-limited-fetcher)** — API Integration — Smart Fetcher with Retry & Rate Limiting
-`API Integration` `REST API` `Retry Logic` `Pandas`
+**[api-github-integration](https://github.com/makino-p/api-github-integration)** — API Integration — GitHub REST API Data Extractor
+`API Integration` `REST API` `Requests` `JSON`
 
 
-**[sitemap-xml-parser](https://github.com/makino-p/sitemap-xml-parser)** — Data Extraction — XML Sitemap Parser & URL Analyzer
-`Data Extraction` `XML Parsing` `Automation` `CSV`
+**[web-crawler-mapper](https://github.com/makino-p/web-crawler-mapper)** — Web Crawling — Recursive Site Mapper
+`Web Crawling` `BeautifulSoup4` `Requests` `Data Extraction`
 
 
-**[data-mining-logs](https://github.com/makino-p/data-mining-logs)** — Data Mining — Server Log Pattern Analysis
-`Data Mining` `Log Analysis` `Regex` `Pandas`
+**[data-mining-text](https://github.com/makino-p/data-mining-text)** — Data Mining — Text Analysis & TF-IDF Keyword Extraction
+`Data Mining` `Text Analysis` `NLP` `Pandas`
 
 
-**[excel-report-advanced](https://github.com/makino-p/excel-report-advanced)** — Automation — Advanced Excel Report Generator
-`Automation` `Excel` `OpenPyXL` `Pandas`
+**[etl-multi-source](https://github.com/makino-p/etl-multi-source)** — ETL — Multi-Source Pipeline (API + CSV + JSON)
+`ETL` `API Integration` `Pandas` `CSV`
 
 
-**[automation-file-organizer](https://github.com/makino-p/automation-file-organizer)** — Automation — Intelligent File Organizer & Reporter
-`Automation` `File Processing` `CSV` `Pandas`
+**[data-extraction-regex](https://github.com/makino-p/data-extraction-regex)** — Data Extraction — Regex Pattern Extractor
+`Data Extraction` `Regex` `Automation` `CSV`
 
 
-**[wikipedia-data-extractor](https://github.com/makino-p/wikipedia-data-extractor)** — Data Extraction — Wikipedia Table Extractor & Processor
-`Web Scraping` `Data Extraction` `BeautifulSoup4` `CSV`
+**[data-validator-framework](https://github.com/makino-p/data-validator-framework)** — Data Cleaning — Validation Rules Engine
+`Data Cleaning` `Validation` `Pandas` `CSV`
 
 
-**[etl-data-pipeline-orchestrator](https://github.com/makino-p/etl-data-pipeline-orchestrator)** — ETL — Pipeline Orchestrator with Checkpointing
-`ETL` `Pipeline` `Pandas` `Automation`
+**[api-aggregator-dashboard](https://github.com/makino-p/api-aggregator-dashboard)** — API Integration — Multi-API Data Aggregator
+`API Integration` `REST API` `Pandas` `CSV`
+
+
+**[web-scraper-advanced-bs4](https://github.com/makino-p/web-scraper-advanced-bs4)** — BeautifulSoup — Advanced Multi-Category Scraper with Retry
+`BeautifulSoup4` `Web Scraping` `Requests` `Pagination`
+
+
+**[data-pipeline-complete](https://github.com/makino-p/data-pipeline-complete)** — Complete Pipeline — End-to-End Data Product
+`ETL` `Web Scraping` `Pandas` `API Integration`
 
 ---
 
