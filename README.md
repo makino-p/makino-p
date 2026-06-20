@@ -24,6 +24,13 @@ skills = {
 
 ## Projects
 
+### [data-pipeline](https://github.com/makino-p/data-pipeline)
+Modular ETL with independent extractors, transformers, and loaders. Merges live REST API data with local CSV, validates, aggregates, and outputs a formatted 5-sheet Excel report with timestamped logging.
+
+`Pandas` `REST API` `ETL` `OpenPyXL` `Modular Architecture` `Logging`
+
+---
+
 ### [quotes-scraper](https://github.com/makino-p/quotes-scraper)
 Web scraper that auto-detects pagination and crawls all 10 pages of quotes.toscrape.com — exports 100 structured records (text, author, tags, bio URL) to CSV + JSON with polite rate limiting.
 
@@ -68,7 +75,14 @@ Structured collection of Data Science bootcamp exercises — CSV parsing, OOP, f
 
 ---
 
+## Portfolio
+
+**[makino-p.github.io/Personal-Dashboard](https://makino-p.github.io/Personal-Dashboard/)** — full portfolio site with all projects, skills, and contact.
+
+---
+
 ## Contact
 
 - Email: m91920013@gmail.com
 - GitHub: [@makino-p](https://github.com/makino-p)
+- Portfolio: [makino-p.github.io/Personal-Dashboard](https://makino-p.github.io/Personal-Dashboard/)
